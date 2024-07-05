@@ -1,19 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <AssemblyName>Worker</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>Worker</PackageId>
     <ServerGarbageCollection>true</ServerGarbageCollection>
-    <RuntimeFrameworkVersion>8.0.302</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>6.0.423</RuntimeFrameworkVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="StackExchange.Redis" Version="*" />
-    <PackageReference Include="Npgsql" Version="*" />
-    <PackageReference Include="Newtonsoft.Json" Version="*" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.0" />
+    <PackageReference Include="Npgsql" Version="4.1.14" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
